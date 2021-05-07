@@ -331,6 +331,10 @@ code, pre {
 
 /* Tablets and under */
 @media screen and (max-width: 768px){
+    * {
+        scroll-behavior: smooth;
+    }
+
     .grid,
     .showcase .grid,
     .stats .grid,
@@ -394,6 +398,10 @@ code, pre {
 
 /* Mobile */
 @media screen and (max-width: 500px) {
+    * {
+        scroll-behavior: smooth;
+    }
+    
     .navbar {
         height: 110px;
     }
